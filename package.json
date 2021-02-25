@@ -1,0 +1,28 @@
+{
+  "name": "new-docify-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "docsify serve",
+    "init": "docsify init ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulsubhan123/docsify-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulsubhan123/docsify-documentation/issues"
+  },
+  "homepage": "https://github.com/abdulsubhan123/docsify-documentation#readme"
+}
