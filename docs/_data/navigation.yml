@@ -1,0 +1,6 @@
+salesteams:
+- title: Regions
+ subitems:
+   - location: US
+   - location: Spain
+   - location: France
