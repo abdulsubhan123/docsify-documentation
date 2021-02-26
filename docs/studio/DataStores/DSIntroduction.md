@@ -16,8 +16,10 @@ this is the hightlighting block
 [footer](../footer.md ':include :type=code color=red')
 
 
-******************************
+```
+### Higlighted block
 
-#### Date Created :: Monday 23 June 2014 ####
+This the text from Highlighted quotes
 
-******************************
+
+```
