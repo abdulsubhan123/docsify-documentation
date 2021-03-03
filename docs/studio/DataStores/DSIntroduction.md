@@ -10,9 +10,6 @@ MATLAB[2] and Cloud Storage systems like VMware,[3] Firefox OS[4] use datastore 
 
 # Test
 
-this is the hightlighting block
-
-
 [footer](../footer.md ':include :type=code color=red')
 
 
@@ -23,3 +20,21 @@ This the text from Highlighted quotes
 
 
 ```
+
+## Hightlights
+
+> [!TIP|style:flat|label:My own heading]
+> An alert of type 'tip' using alert specific style 'flat' which overrides global style 'callout'.
+> In addition, this alert uses an own heading and hides specific icon.
+
+
+> [!NOTE|style:flat|label:NOTE]
+> This is note alert
+
+> [!WARNING|style:flat|label:Warning]
+> This quote is from warning section
+
+### Video
+
+
+[some video](../../../_media/new_video.mp4 ' :include :type=iframe width=90% height=400px')

@@ -1,16 +1,5 @@
 
-- Go To
-    * [Contents](/studio/Content/Contents.md)
-
-    * [Solutions](/studio/Solutions/Overview)
-
-    * [AssetStores](/studio/AssetStore/Introduction)
-
-    * [DataStores](/studio/DataStores/DSIntroduction)
-
-    * [User Management](/studio/UserManagement/UserManagement)
-
-    * [Home](/)
+* [Home](/)
 
 * [Contents](/studio/Content/Contents.md)
 
