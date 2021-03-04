@@ -7,19 +7,10 @@ A database is a series of bytes that is managed by a database management system 
 MATLAB[2] and Cloud Storage systems like VMware,[3] Firefox OS[4] use datastore as a term for abstracting collections of data inside their respective applications. 
 
 
-
-# Test
+## Including another markdown file
 
 [footer](../footer.md ':include :type=code color=red')
 
-
-```
-### Higlighted block
-
-This the text from Highlighted quotes
-
-
-```
 
 ## Hightlights
 
@@ -34,7 +25,23 @@ This the text from Highlighted quotes
 > [!WARNING|style:flat|label:Warning]
 > This quote is from warning section
 
-### Video
+
+## Data rendering from a json file
+
+### Data-1
+
+Project Name : **{{project.name}}**
+
+Project Id : **{{project.id}}**
+
+Project Location : **{{project.location}}**
+
+### Data-2
+
+Project Name : **{{project-1.name}}**
+
+Project Id : **{{project-1.id}}**
+
+Project Location : **{{project-1.location}}**
 
 
-[some video](../../../_media/new_video.mp4 ' :include :type=iframe width=90% height=400px')
