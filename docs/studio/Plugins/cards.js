@@ -1,13 +1,33 @@
-(function(hook) {
-    var header = [
-        '<header class="card>',
-       '<img src="../Assets/logo.png" />',
-       '<span>Main Text</span>',
-       '</header>',
-    ].join('');
+(function(){
+    const card = /^<!-- (.*$)/gim;
 
-    hook.beforeEach(function(html) {
-        return html + header;
-      });
-})
+        function parseMarkdown(content) {
+        const htmlText = content
+            .replace(card,  () => [
+                '<div class="card">',
+                  '<h4><b>Name</b></h4>',
+                    '<p>Description</p> ',
+                '</div>'
+                ].join(''))
+                content = content.replace(card, () => htmlText)
+        return content
+    }
+     function documentationCard(hook, vm) {
+        let cardRendered = false;
+          return  hook.beforeEach(function(content) {
+              cardRendered = card.test(content);
+              if (cardRendered) {
+                    content = parseMarkdown(content)
+              }
+              return content;
+          });
+        };
+    
+    if (window ) {
+        var dom = Docsify.dom;
+        $docsify.plugins = [].concat(documentationCard, $docsify.plugins);
+    }
+})()
+
+
 

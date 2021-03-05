@@ -47,22 +47,22 @@
       mustache: {
       data: ['/studio/Data/_data.json']
       },
-      plugins: [
-    function(hook) {
-      var footer = [
-        '<hr/>',
-        '<footer>',
-        '<span><a href="https://github.com">DigitalDots</a> &copy;2021 </span>',
-        '<span>All rights reserved from <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-        '</footer>',
-        '<hr/>'
-      ].join('');
+  //     plugins: [
+  //   function(hook) {
+  //     var footer = [
+  //       '<hr/>',
+  //       '<footer>',
+  //       '<span><a href="https://github.com">DigitalDots</a> &copy;2021 </span>',
+  //       '<span>All rights reserved from <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+  //       '</footer>',
+  //       '<hr/>'
+  //     ].join('');
 
-      hook.afterEach(function(html) {
-        return html + footer;
-      });
-    }
-  ]
+  //     hook.afterEach(function(html) {
+  //       return html + footer;
+  //     });
+  //   }
+  // ]
     }
   </script>
   <!-- Docsify v4 -->

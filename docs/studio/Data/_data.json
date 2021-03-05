@@ -8,6 +8,10 @@
         "name":"test-1",
         "id":"2",
         "location":"US"
+    },
+    "data":{
+        "name":"Test Solution",
+        "description":"This is a Test Solution"
     }
     
   }

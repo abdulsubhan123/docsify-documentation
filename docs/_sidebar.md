@@ -16,3 +16,5 @@
 
 * [User Management](/studio/UserManagement/UserManagement)
 
+* [Cards in Markdown](/studio/Cards/Cards)
+

@@ -43,5 +43,3 @@ Project Name : **{{project-1.name}}**
 Project Id : **{{project-1.id}}**
 
 Project Location : **{{project-1.location}}**
-
-
