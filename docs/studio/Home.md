@@ -31,7 +31,5 @@ Scalable Data Pipeline, Artificial Intelligence
 
 Edge Orchestration and Automation
 
-<!-- <img src="/studio/Assets/blue-sensor-fabric.svg" alt="sensor-fabric" width="100%" height="100" /> -->
-
 ![sensor-fabric](/studio/Assets/blue-sensor-fabric.svg ' :size=100%x100')
 
