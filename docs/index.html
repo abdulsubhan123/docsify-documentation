@@ -50,23 +50,11 @@
       mustache: {
       data: ['/studio/Data/_data.json']
       },
+      pagination:{
+        previousText:'Previous Slide',
+        nextText:'Next Slide',
+      }
      
-  //     plugins: [
-  //   function(hook) {
-  //     var footer = [
-  //       '<hr/>',
-  //       '<footer>',
-  //       '<span><a href="https://github.com">DigitalDots</a> &copy;2021 </span>',
-  //       '<span>All rights reserved from <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
-  //       '</footer>',
-  //       '<hr/>'
-  //     ].join('');
-
-  //     hook.afterEach(function(html) {
-  //       return html + footer;
-  //     });
-  //   }
-  // ]
     }
   </script>
   <!-- Docsify v4 -->
@@ -78,6 +66,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-mustache"></script>
   <script src="studio/Plugins/cards.js"></script>
- 
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script>
 </body>
 </html>

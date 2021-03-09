@@ -1,18 +1,22 @@
 # Cards in Markdown
 
-
-
 #card 1
-
-title=Card one
-
+logo=/studio/Assets/logo.png ,
+title=AssetStore ,
+subtitle=subTitle1 ,
+LinkToAssetStore=/#/studio/AssetStore/ListOfAsset ,
 
 #card 2
-
-title=Card two
-
+logo=/studio/Assets/logo.png ,
+title=Solutions ,
+subtitle=subTitle2 ,
+LinkToSolution=/#/studio/Solutions/Overview ,
 
 #card 3
+logo=/studio/Assets/logo.png ,
+title=UserManagement ,
+subtitle=subTitle3 ,
+LinkToUserManagement=/#/studio/UserManagement/UserManagement ,
 
-title=Card three
+<!-- slide:break-100 -->
 

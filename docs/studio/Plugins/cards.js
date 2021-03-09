@@ -1,18 +1,23 @@
 (function(){
-    const card = /^#card*\s*[0-9]*$[\r\n]*\s*title=[A-Za-z]+[a-z]*\s*[A-Za-z]+/gm;
+         const card = /^#card\s[0-9]$\n^[A-Za-z]*\s*=*.*\n^[A-Za-z]*\s*=[A-Za-z0-9]+[a-z]*\s?,\n^[A-Za-z]*\s*=[A-Za-z0-9]*\s?,\n^[A-Za-z]=*.*/gm
     function parseMarkdown(content) {
             let cards = content.match(card) || [];
             cards.map((item, i ) => {
             let CardDetails = item.split('=')
-                content = content.replace(item, () => 
+            const logo = CardDetails[1].split(',')[0]
+            const title = CardDetails[2].split(',')[0]
+            const subTitle = CardDetails[3].split(',')[0]
+            const link = CardDetails[4].split(',')[0]
+            const linkName = CardDetails[3].split(',')[1]
+                content = content.replace(item, () =>
                 (
                     '<div class="card">'+
-                        '<img src="/studio/Assets/logo.png" class="card-img-top" alt="img-logo">'+
+                        `<img src="${logo}" class="card-img-top" alt="img-logo">`+
                         '<div class="card-body">'+
-                            `<h5 class="card-title font-weight-bold text-primary">${CardDetails[1]}</h5>`+
-                            '<h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>'+
-                            '<p class="card-text ">Some Description</p>'+
-                            '<a href="/#/studio/AssetStore/ListOfAsset" class="card-link text-primary">List of Asset Stores</a>'+
+                            `<h5 class="card-title font-weight-bold text-primary">${title}</h5>`+
+                            `<h6 class="card-subtitle mb-2 text-muted">${subTitle}</h6>`+
+                            '<p class="card-text ">Some Description about the card</p>'+
+                            `<a href="${link}" class="card-link text-primary">${linkName}</a>`+
                         '</div>'+
                     '</div>'
                 ))

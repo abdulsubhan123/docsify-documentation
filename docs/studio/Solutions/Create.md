@@ -15,6 +15,8 @@ After you save the solution, you may wish to add information to columns that are
 After you’ve created your solution, it won’t contain any solution components. You can create new components to be added to the solution or add existing components to your new solution.
 
 You can use the New command to create different types of components. This takes you to a different create experience depending on the component type that you choose. After you finish creating the component, it will be added to the solution.
+<!-- slide:break-50 -->
+
 
 # Create Solution 3
 
