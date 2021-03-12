@@ -1,18 +1,18 @@
 
-* [Home](/)
+- [Home](/)
 
-* [Contents](/studio/Content/Contents.md)
+- [Contents](/Content/Contents.md)
 
-* [Solutions](/studio/Solutions/Overview)
-  * [Create](/studio/Solutions/Create)
-  * [Export](/studio/Solutions/Export)
-  * [Import](/studio/Solutions/Import)
+- [Solutions](/Solutions/Overview)
+  - [Create](/Solutions/Create)
+  - [Export](/Solutions/Export)
+  - [Import](/Solutions/Import)
 
-* [AssetStores](/studio/AssetStore/Introduction)
-  * [List](/studio/AssetStore/ListOfAsset)
+- [AssetStores](/AssetStore/Introduction)
+  - [List](/AssetStore/ListOfAsset)
 
-* [DataStores](/studio/DataStores/DSIntroduction)
-  * [List of DataStores](/studio/DataStores/ListOfDataStores)
+- [DataStores](/DataStores/DSIntroduction)
+  - [List of DataStores](/DataStores/ListOfDataStores)
 
-* [User Management](/studio/UserManagement/UserManagement)
+- [User Management](/UserManagement/UserManagement)
 

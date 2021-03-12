@@ -1,21 +1,47 @@
 
-* [Home](/)
+- Home
 
-* [Contents](/studio/Content/Contents.md)
+  - [Homepage](home.md)
 
-* [Solutions](/studio/Solutions/Overview)
-  * [Create](/studio/Solutions/Create)
-  * [Export](/studio/Solutions/Export)
-  * [Import](/studio/Solutions/Import)
+- Contents
 
-* [AssetStores](/studio/AssetStore/Introduction)
-  * [List](/studio/AssetStore/ListOfAsset)
+  - [Studio Content](Content/Contents.md)
 
-* [DataStores](/studio/DataStores/DSIntroduction)
-  * [List of DataStores](/studio/DataStores/ListOfDataStores)
+- Solutions
 
-* [User Management](/studio/UserManagement/UserManagement)
+  - [Overview](Solutions/SolutionsOverview.md)
+  - [Create](Solutions/Create.md)
+  - [Export](Solutions/Export.md)
+  - [Import](Solutions/Import.md)
 
-* [Cards in Markdown](/studio/Cards/Cards)
+- Environments
 
+  - [AWS](/Environments/Aws)
+  - [Azure](/Environments/Azure)
+  - [Google](/Environments/Google)
 
+- Blueprints
+
+  - [Banking](/Blueprints/Banking)
+  - [Energy](/Blueprints/Energy)
+  - [Health_Care](/Blueprints/Health_Care)
+  - [Retail](/Blueprints/Retail)
+
+- AssetStores
+
+  - [List](/AssetStore/ListOfAsset)
+  - [Connector](/AssetStore/Connectors)
+  - [DataStores](/AssetStore/DataStores)
+
+- DataStores
+
+  - [List of DataStores](/DataStores/ListOfDataStores)
+
+- User Management
+
+  - [User Management](/UserManagement/UserManagement)
+  
+- [Cards in Markdown](/Cards/Cards)
+  - [sample1](sample1.md)
+  - [sample2](sample2.md)
+  - [sample3](sample3.md)
