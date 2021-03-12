@@ -39,7 +39,7 @@ Solutions are the mechanism for implementing application lifecycle management (A
 
 
 #card 1
-logo=/studio/Assets/logo.png ,
+logo=/Assets/logo.png ,
 title=AssetStore ,
 subtitle=subTitle1 ,
 LinkToAssetStore=/#/studio/AssetStore/ListOfAsset ,

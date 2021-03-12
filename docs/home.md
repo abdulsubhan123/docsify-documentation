@@ -33,5 +33,4 @@ Edge Orchestration and Automation
 
 ![sensor-fabric](/Assets/blue-sensor-fabric.svg ' :size=100%x100')
 
-## test
 
